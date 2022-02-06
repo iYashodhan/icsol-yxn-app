@@ -21,7 +21,7 @@ export default function Home() {
         <form className="border-2 p-1 border-gray-400 focus-within:border-black rounded-full min-w-max w-1/3">
           <input
             type="text"
-            placeholder="Search for courses"
+            placeholder="Search for courses..."
             className="outline-none px-2 flex-grow"
           />
         </form>
@@ -30,7 +30,7 @@ export default function Home() {
       <main className="">
         {/*Section#1 */}
         <div className="bg-gray-300 flex flex-col items-center space-y-2 border-2 lg:space-x-4 py-24">
-          <p className="text-2xl lg:text-5xl text-white mb-24">
+          <p className="text-3xl lg:text-6xl text-white mb-24">
             Make your future, today
           </p>
           <div className="flex flex-col items-center gap-2 lg:flex-row ">
@@ -45,7 +45,6 @@ export default function Home() {
 
         {/*Section#2 */}
         <div className="flex items-center justify-center">
-
           <div className="flex items-center lg:overflow-hidden overflow-scroll scrollbar-hide m-4">
             <div className="bg-gray-500 text-white m-6 p-8 shadow-md min-w-max max-w-max overscroll-x-auto">
               <p className="text-3xl font-bold text-white text-center">28739</p>
@@ -82,11 +81,214 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
 
+        <div className="flex items-center justify-center">
+          <div className="flex items-center gap-2 lg:overflow-hidden overflow-scroll scrollbar-hide m-4">
+            <div className="min-w-max max-w-min overscroll-x-auto">
+              <Image
+                src="/dummylogo.jpeg"
+                alt="dummy logo"
+                height="75"
+                width="200"
+              />
+            </div>
+
+            <div className="min-w-max max-w-min overscroll-x-auto">
+              <Image
+                src="/dummylogo.jpeg"
+                alt="dummy logo"
+                height="75"
+                width="200"
+              />
+            </div>
+
+            <div className="min-w-max max-w-min overscroll-x-auto">
+              <Image
+                src="/dummylogo.jpeg"
+                alt="dummy logo"
+                height="75"
+                width="200"
+              />
+            </div>
+
+            <div className="min-w-max max-w-min overscroll-x-auto">
+              <Image
+                src="/dummylogo.jpeg"
+                alt="dummy logo"
+                height="75"
+                width="200"
+              />
+            </div>
+
+            <div className="min-w-max max-w-min overscroll-x-auto">
+              <Image
+                src="/dummylogo.jpeg"
+                alt="dummy logo"
+                height="75"
+                width="200"
+              />
+            </div>
+          </div>
         </div>
       </main>
 
-      <footer className=""></footer>
+      <footer className="bg-gray-900 p-4 px-12">
+        <div className="lg:flex lg:items-start lg:justify-between">
+          <div className="flex-col gap-4">
+            <p className="text-2xl text-white">
+              Sign up and stay updated on your career
+            </p>
+            <input
+              type="text"
+              placeholder="Email"
+              className="p-2 my-4 text-black outline-none focus-within:none"
+            />
+          </div>
+
+          <div className="">
+            <p className="text-2xl text-white mb-4">Stay connected on social</p>
+            <div className="flex gap-4 items-center">
+              <Image
+                src="/Twitter.png"
+                alt="twitter_logo"
+                height={20}
+                width={20}
+              />
+              <Image
+                src="/Linkedin.png"
+                alt="Linked in logo"
+                height={20}
+                width={20}
+              />
+              <Image
+                src="/Instagram.png"
+                alt="Instagram logo"
+                height={20}
+                width={20}
+              />
+              <Image
+                src="/Twitter.png"
+                alt="twitter_logo"
+                height={20}
+                width={20}
+              />
+              <Image
+                src="/Instagram.png"
+                alt="Instagram logo"
+                height={20}
+                width={20}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:flex lg:gap-32 lg:items-center mt-8">
+          {/*Links */}
+          <div className="flex flex-col gap-1 my-2">
+            <p className="text-xl font-bold text-white mb-2">POPULAR COURSES</p>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+          </div>
+
+          {/*Links */}
+          <div className="flex flex-col gap-1 my-2">
+            <p className="text-xl font-bold text-white mb-2">TOP COMPANES</p>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+          </div>
+
+          {/*Links */}
+          <div className="flex flex-col gap-1 my-2">
+            <p className="text-xl font-bold text-white mb-2">TOP CAREERS</p>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+          </div>
+
+          {/*Links */}
+          <div className="flex flex-col gap-1 my-2">
+            <p className="text-xl font-bold text-white mb-2">DEVLUP</p>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+            <a href="" className="text-white text-sm hover:text-blue-600">
+              Lorem Ipsum
+            </a>
+          </div>
+        </div>
+
+        {/*Links */}
+        <div className="flex flex-col gap-1 my-2 mt-4">
+          <p className="text-xl font-bold text-white mb-2">CONTACT US</p>
+          <a href="" className="text-white text-sm hover:text-blue-600">
+            Lorem Ipsum
+          </a>
+          <a href="" className="text-white text-sm hover:text-blue-600">
+            Lorem Ipsum
+          </a>
+          <a href="" className="text-white text-sm hover:text-blue-600">
+            Lorem Ipsum
+          </a>
+          <a href="" className="text-white text-sm hover:text-blue-600">
+            Lorem Ipsum
+          </a>
+          <a href="" className="text-white text-sm hover:text-blue-600">
+            Lorem Ipsum
+          </a>
+        </div>
+
+        <p className="text-white text-sm font-bold mt-4">
+          @REDISIGNED BY YASHODHAN 🙏
+        </p>
+      </footer>
     </div>
   );
 }
