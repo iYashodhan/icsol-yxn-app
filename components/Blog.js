@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 function Blog({image, description}) {
   return <div className="min-w-min m-2 overscroll ">
