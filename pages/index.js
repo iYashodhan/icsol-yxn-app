@@ -46,7 +46,6 @@ export default function Home() {
             </button>
           </div>
         </section>
-
         {/*Section#2 */}
         <div className="flex items-center justify-center my-8">
           <div className="flex items-center lg:overflow-hidden overflow-scroll scrollbar-hide m-4">
@@ -86,7 +85,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="flex items-center justify-center">
           <div className="flex items-center gap-2 lg:overflow-hidden overflow-scroll scrollbar-hide m-4">
             <div className="min-w-max max-w-min overscroll-x-auto">
@@ -135,14 +133,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <section className="bg-gray-700 my-12">
           <Career />
         </section>
-
-        <div className="flex-col gap-2 min-w-max">
-          <p className="text-3xl my-4">Top Courses</p>
-          <div className="flex flex-row gap-2 overflow-scroll overscroll-none scrollbar-hide">
+        <div className="px-4">
+          <p className="text-3xl font-bold my-4">Top Courses</p>
+          <div className="flex gap-2 overflow-scroll scrollbar-hide m-2">
             <Blog
               image="/person1.png"
               description="Relay and relay logic: The very start of Programming."
@@ -162,8 +158,10 @@ export default function Home() {
           </div>
         </div>
 
+
+        
         <section className="p-2">
-          <p className="text-black text-3xl font-bold mb-4">Top Careers</p>
+          <p className="text-black text-3xl font-bold mb-4 px-2">Top Careers</p>
 
           <div className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-auto lg:grid lg:grid-cols-4 lg:grid-row-auto">
             <Avatar person="/person1.png" position="Telecaller" />
@@ -180,15 +178,13 @@ export default function Home() {
             <Avatar person="/person1.png" position="Driver" />
           </div>
         </section>
-
         <section className="bg-gray-700 my-12">
           <Hire />
         </section>
-
         {/*Section#7 */}
-        <div className="flex-col gap-2 min-w-max">
-          <p className="text-3xl my-4">Blogs</p>
-          <div className="flex flex-row gap-2 overflow-scroll overscroll-none scrollbar-hide">
+        <div className="">
+          <p className="text-3xl font-bold px-2 my-4">Blogs</p>
+          <div className="flex gap-2 overflow-scroll scrollbar-hide m-2">
             <Blog
               image="/person1.png"
               description="Relay and relay logic: The very start of Programming."
@@ -207,10 +203,9 @@ export default function Home() {
             />
           </div>
         </div>
-
         {/*Section#8 */}
         <article className="p-4 px-8">
-          <p className="text-3xl text-black my-4">Featured in the press</p>
+          <p className="text-3xl text-black font-bold my-4">Featured in the press</p>
           <div className="grid grid-cols-3 grid-rows-auto lg:flex lg:justify-around my-12">
             <Image
               src="/dummylogo.jpeg"
